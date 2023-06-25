@@ -5,6 +5,4 @@ from .models import Article
 def index(request):
     articles = Article.objects.all()
     
-    return render(request, 'index.html', {'article':articles})
-    
-    
+    return render(request, 'index.html', {'articles':articles})

@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>EC2 Deployment</title>
-    </head>
-    <body>
-        {% for article in articles %}
-            <h1>{{article.title}}</h1>
-            <h5>{{article.body}}</h5>
-        
-        {% endif %}
-    </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>EC2 Deployment</title>
+</head>
+<body>
+    {% for article in articles %}
+        <h1>{{article.title}}</h1>
+        <h5>{{article.body}}</h5>
+    
+    {% endfor %}
+</body>
 </html>
