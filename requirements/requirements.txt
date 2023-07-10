@@ -5,3 +5,6 @@ loguru
 # psycopg2-binary
 # mariadb
 django
+mysqlclient
+gunicorn
+awsebcli
